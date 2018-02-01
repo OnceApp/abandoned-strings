@@ -4,7 +4,7 @@ This command line program detects unused resource strings in an iOS or OS X appl
 ## Usage
 Open a Terminal to the directory which contains the *AbandonedStrings* executable, and run the following command:
 
-`$ ./AbandonedStrings /Users/your-username/path/to/sourcecode_folder /path/to/file_containing_the_strings`
+`$ ./AbandonedStrings/main.swift /Users/your-username/path/to/sourcecode_folder /path/to/file_containing_the_strings`
 
 i.e. `$ ./AbandonedStrings/main.swift /Volumes/Alinaa/Development/once-ios /Volumes/Alinaa/Development/DerivedData/once-deecixewwotnzkbyydvhbcsxvvrj/Build/Products/InAppDebug-iphoneos/include/Localizable.h`
 

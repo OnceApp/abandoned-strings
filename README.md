@@ -10,6 +10,14 @@ Open a Terminal to the directory which contains the *AbandonedStrings* executabl
 
 i.e. `$ ./AbandonedStrings/main.swift /Volumes/Alinaa/Development/once-ios /Volumes/Alinaa/Development/DerivedData/once-deecixewwotnzkbyydvhbcsxvvrj/Build/Products/InAppDebug-iphoneos/include/Localizable.h`
 
+Can also be used in Xcode, just hardcode those values like:
+
+var file = "/Volumes/Alinaa/Development/DerivedData/once-deecixewwotnzkbyydvhbcsxvvrj/Build/Products/InAppDebug-iphoneos/include/Localizable.h"
+
+return "/Volumes/Alinaa/Development/once-ios"//c
+
+or retrieve them programmatically as needed
+
 ## What to expect
 
 Searching for abandoned resource strings…
